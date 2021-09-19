@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "esbuild": "^0.12.28"
+    "esbuild": "^0.12.28",
+    "serve": "^12.0.1"
   },
   "dependencies": {
     "react": "^17.0.2",
