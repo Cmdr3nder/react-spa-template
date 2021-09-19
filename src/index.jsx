@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import WelcomeMessage from './welcome';
+
 function App() {
 	return (
-		<div>Hello React!</div>
+		<WelcomeMessage />
 	);
 }
 
