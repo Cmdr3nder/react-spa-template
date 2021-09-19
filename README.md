@@ -1,12 +1,19 @@
 # React Project Template
 
-### Prerequisites
-Node ^16.9.1
-Npm ^7.24.0
-Make
-Entr
+## Usage
+1. Clone this repo `git clone https://github.com/Cmdr3nder/react-spa-template.git your-project-name`
+1. Enter the new project directory `cd your-project-name`
+1. Delete the *.git/* folder `rm -rf .git`
+1. Initialize a fresh git repo `git --init`
+1. Make your initial commit `git add . && git commit -m "INITIAL COMMIT"`
 
-### Preparing to dev
+## Prerequisites
+* node ^16.9.1
+* npm ^7.24.0
+* make
+* entr
+
+## Preparing to dev
 With `make` (preferred):
 1. Install `node` and `npm`
 1. Install npm dependencies with `make install`
@@ -17,4 +24,4 @@ With `make` (preferred):
 1. Suggestion: Run `make serve` and `make watch-build` simultaneously to achieve a tight development loop
 
 Without `make`:
-ARE WE MAKING THIS POSSIBLE? TBD
+TBD
