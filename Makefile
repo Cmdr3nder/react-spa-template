@@ -33,4 +33,8 @@ build: clean-build core-build
 
 PHONY: watch-build
 watch-build: clean-build
-	find src/ -type f | entr $(MAKE) -f $(THIS_FILE) core-build
+	while [ "a" != "b" ] ; do \
+		find src/ | entr -d $(MAKE) -f $(THIS_FILE) core-build ; \
+		sleep 0.5 ; \
+	done; \
+	true
