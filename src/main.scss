@@ -16,19 +16,35 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
+html, body {
+	color: $base03;
+	background-color: $base2;
+}
+
 h1 {
 	color: $violet;
 }
 
-html {
-	color: $base03;
+body {
+	display: flex;
+	justify-content: space-around;
+}
+
+#root {
 	background-color: $base3;
+	max-width: 800px;
+	height: 100%;
+	padding: 1rem;
 }
 
 // The rest of the styles are implied @media (prefers-color-scheme: light)
 @media (prefers-color-scheme: dark) {
-	html {
+	html, body {
 		color: $base3;
+		background-color: $base02;
+	}
+
+	#root {
 		background-color: $base03;
 	}
 }
